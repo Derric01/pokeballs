@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pokédex</title>
+  <link rel="icon" href="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png" type="image/png" />
+  <script>
+    tailwind.config = {
+      darkMode: 'class'
+    }
+  </script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- SEO Meta -->
+  <meta name="description" content="A stylish Pokédex built with HTML, CSS, and JS. Explore and search for your favorite Pokémon!" />
+  <meta property="og:title" content="Pokédex App" />
+  <meta property="og:description" content="Explore all your favorite Pokémon in this modern, responsive Pokédex site." />
+  <meta property="og:image" content="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png" />
+</head>
+<body class="bg-gray-900 text-white transition-all">
+    <header class="bg-red-600 p-5 flex flex-col sm:flex-row items-center justify-between shadow-md">
+    <h1 class="text-4xl font-bold">Pokédex</h1>
+    <div class="mt-3 sm:mt-0">
+      <input type="text" id="search" placeholder="Search Pokémon..." class="p-2 rounded border border-gray-700 bg-gray-800 text-white" />
+    </div>
+  </header>
+
+  <section id="pokemon-list" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-6">
+    <!-- Pokémon cards go here -->
+  </section>
+
+  <!-- Loading Spinner -->
+  <div id="loader" class="fixed inset-0 bg-black/60 flex items-center justify-center z-50 hidden">
+    <div class="loader ease-linear rounded-full border-8 border-t-yellow-400 h-16 w-16"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

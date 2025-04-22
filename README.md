@@ -43,7 +43,7 @@ Whether you’re a seasoned Pokémon trainer or a new recruit, this web app brin
 
 ## 🖼 Live Demo
 
-👉 pokedex-tan-delta-94.vercel.app
+👉 **pokedex-tan-delta-94.vercel.app**
 
 ---
 

@@ -4,7 +4,7 @@
 ## 🌟 A Nostalgic Journey to the World of Pokémon 🌟
 
 Remember the days when you'd rush home after school, grab your Game Boy, and dive into the Pokémon world? The thrill of catching *’em all*, battling with friends, and unlocking rare Pokémon was like nothing else. Well, here’s a modern twist on that childhood magic: a **Pokédex** built with **HTML**, **Tailwind CSS**, and **JavaScript**!
-
+I am gonna get that PokeMon🤩
 Whether you’re a seasoned Pokémon trainer or a new recruit, this web app brings all your favorite Pokémon back to life with an easy-to-use interface. Search, view stats, and rediscover your childhood love for the creatures that became legendary.
 
 ---
